@@ -59,18 +59,3 @@ Use the `/projects` command to get a list of all projects. Click on a project na
 1. Use `/skills` to select a project.
 2. Choose a skill from the list to associate it with the selected project.
 
-## Notes
-
-- Inline and reply keyboard markups are used to enhance user interaction.
-- The bot gracefully handles invalid inputs and guides the user through the commands.
-- A "Cancel" button is available during multi-step processes to exit the operation.
-
-## Future Enhancements
-
-- Add support for project deadlines and reminders.
-- Enhance skill management with categories or levels.
-- Provide analytics or summary of user projects.
-
-## License
-
-This project is open-source and available under the MIT License.

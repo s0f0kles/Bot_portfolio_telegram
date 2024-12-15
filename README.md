@@ -24,32 +24,12 @@ A Telegram bot designed to help users manage and track their projects efficientl
 ### Additional Commands
 - `/skills`: Assign skills to projects.
 
-## Setup
-
 ### Prerequisites
 
 - Python 3.x
 - Required libraries: `pyTelegramBotAPI` (telebot), database handler (`logic.DB_Manager`)
 - Database configuration file (`config.py`) containing `TOKEN` (Telegram bot token) and `database` (database connection details).
 
-### Installation
-
-1. Clone the repository or download the bot's source code.
-2. Install the required Python libraries:
-   ```bash
-   pip install pyTelegramBotAPI
-   ```
-3. Configure the `config.py` file with:
-   - Your Telegram bot token (`TOKEN`).
-   - Your database details (`database`).
-4. Ensure your database is set up and matches the structure expected by the `DB_Manager` class.
-
-### Run the Bot
-
-Execute the bot script:
-```bash
-python bot.py
-```
 
 ## How It Works
 
@@ -78,17 +58,6 @@ Use the `/projects` command to get a list of all projects. Click on a project na
 ### Associating Skills
 1. Use `/skills` to select a project.
 2. Choose a skill from the list to associate it with the selected project.
-
-## File Structure
-
-```
-.
-├── bot.py                # Main bot script
-├── logic/
-│   └── DB_Manager.py     # Database management class
-├── config.py             # Configuration file with TOKEN and database details
-└── README.md             # Documentation file (this file)
-```
 
 ## Notes
 

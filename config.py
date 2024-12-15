@@ -1,2 +1,2 @@
-TOKEN = "7779635157:AAG_2ZRQbgCBb6aqXOlvPKhQonAdTzSZFTU"
+TOKEN = ""
 database = "Bot_portfolio.bd"
